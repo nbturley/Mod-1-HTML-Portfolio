@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<title>Nathanael Turley</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-secondary navbar-light py-3 sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-light">NT</a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link text-light">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-light">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-light">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Picture -->
+    <section class="bg-primary text-light p-10 p-lg-10 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 bg-body">
+        <div class="conatiner p-5 bg-primary rounded">
+            <div class="row-md col-sm">
+                <div class="d-md-flex bg-primary align-items-center justify-content-evenly">
+                    <h1 class="col-lg-2 col-md-6 pe-sm-5">My name is Nathanael Turley.</h1>
+                    <img src="images/collins_ice.jpg" alt="pictue of Nathanael" class="img-fluid col-lg-8 col-md-6 rounded-pill">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Picture -->
+    <section class="bg-dark text-light p-10 p-lg-0 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 bg-body">
+        <div class="container p-5 bg-dark">
+            <div class="row-md col-sm">
+                <div class="d-md-flex bg-dark align-items-center justify-content-evenly">
+                    <img src="images/wedding.jpg" alt="The Turleys" class="img-fluid col-lg-8 col-md-6 rounded">
+                    <h1 class="col-lg-2 col-md-6 pe-sm-5">This is my beautiful bride Erica.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="bg-primary text-light p-10 p-lg-10 pt-lg-10 p-md-10 text-center text-sm-start shadow p-3 bg-body">
+        <div class="conatiner p-5 bg-primary rounded">
+            <div class="">
+                <div class="d-md-flex bg-primary align-items-center justify-content-evenly">
+                    <h1 class="container ">About Me</h1>
+                    <p class="bg-secondary p-2 text-whitetext-start border border-secondary border-5 rounded-3">
+                        Originally from Eastern NC, Nathanael grew up in a small family that spent most of their free time together-
+                        enjoying movies, playing games, and attending and serving at church. In high school, Nathanael realized his natural talent for running
+                        and led the High School Track team to victory in local and regional meets. Following high school, Nathanael attended the Air Force Academy 
+                        and Central Carolina Community College where he studied Lasers and Photonics. He has applied his optical and electrical knowledge in 
+                        many different areas including the alignment of camera lenses and the repair and overhaul of aeronautical lighting. Realizing that in 2023, 
+                        the world has now changed and he's ready to get with the times, Nathanael has enrolled in Coding Temple Bootcamp to learn Software 
+                        Development. In his free time, Nathanael still kicks butt in 5k races and goes on epic adventures with his wife (who is still behind the 
+                        times, wondering what on earth a computer thing is anyway).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Button -->
+    <section class="bg-dark text-light text-center p-5">
+        <button class="btn btn-primary"><a class="text-white" href="gallery.html"><h5>Check out the gallery to see more of my hobbies and adventures.</h5></a></button>
+    </section>
+
+    <!-- Form -->
+    <section id="contact" class="bg-dark text-light text-center p-5">
+        <form class="mx-5">
+            <h3 class="m-5">Have questions for Nathanael?</h3>
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          
+            <label for="description" class="form-label">Ask quesitons here</label>
+            <textarea class="form-control" id="description" placeholder="What will be your next adventure?" rows="3"></textarea>
+            <button class="btn btn-primary mt-5"><a class="text-white" href="#"><h5>Contact Nathanael</h5></a></button>
+          </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="lead text-center p-3">&copy; Nathanael Turley</p>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
